@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liên Mẫu Hậu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Liên Mẫu Hậu</h1>
+    <p>Người phụ nữ quyền lực, duyên dáng và tràn đầy yêu thương</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-button active" onclick="showTab('intro')">Giới thiệu</button>
+    <button class="tab-button" onclick="showTab('role')">Vai trò</button>
+    <button class="tab-button" onclick="showTab('praise')">Ca ngợi</button>
+  </div>
+
+  <div id="intro" class="content active">
+    <img src="lien-mau-hau-1.png" alt="Ảnh Liên Mẫu Hậu bên bình hoa" class="profile-img">
+    <div class="card">
+      <h2>Về Liên Mẫu Hậu</h2>
+      <p><strong>Phạm Hồng Liên</strong>, thường được gọi một cách trìu mến là <strong>Liên Mẫu Hậu</strong>, là người phụ nữ nổi bật bởi sự tinh tế, bản lĩnh và lòng nhân hậu.</p>
+      <p>Với giọng hát truyền cảm và khiếu hài hước trời ban, cô luôn mang đến tiếng cười và sự ấm áp cho mọi người xung quanh.</p>
+      <p>Cô là hình mẫu lý tưởng của một người phụ nữ cần có trong mọi gia đình.</p>
+    </div>
+  </div>
+
+  <div id="role" class="content">
+    <img src="lien-mau-hau-1.png" alt="Liên Mẫu Hậu trong không gian truyền thống" class="profile-img">
+    <div class="card">
+      <h2>Người giữ lửa gia đình</h2>
+      <p>Trong vai trò người mẹ, người vợ và người “nội tướng”, Liên Mẫu Hậu không chỉ chăm sóc chu đáo từng bữa ăn, mà còn là chỗ dựa tinh thần vững chắc cho mọi thành viên trong nhà.</p>
+      <p>Bằng sự quyết đoán và tinh thần lạc quan, cô giữ gìn nề nếp, xây dựng một gia đình ấm êm, hạnh phúc.</p>
+      <p>Đôi lúc vất vả, cô vẫn không ngại khó khăn để nuôi dạy con cái.</p>
+    </div>
+  </div>
+
+  <div id="praise" class="content">
+    <img src="lien-mau-hau-1.png" alt="Liên Mẫu Hậu nở nụ cười hiền hậu" class="profile-img">
+    <div class="card">
+      <h2>Nhắn gửi Liên Mẫu Hậu</h2>
+      <p>Mặc dù nhiều lúc hay nổi nóng, cô vẫn dành những tình cảm chân thành cho gia đình.</p>
+      <p>Sự chân thành và tinh thần hết lòng vì người thân đã khiến cô trở thành một biểu tượng đáng ngưỡng mộ trong mắt con cháu.</p>
+      <p>🎉🎉Chúc Liên tìm được nhiều niềm vui và hạnh phúc trong cuộc sống.</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Liên Mẫu Hậu – Dịu dàng, mạnh mẽ và truyền cảm hứng.
+  </footer>
+
+  <script>
+    function showTab(id) {
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.content').forEach(div => div.classList.remove('active'));
+      document.querySelector('.tab-button[onclick*="' + id + '"]').classList.add('active');
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
