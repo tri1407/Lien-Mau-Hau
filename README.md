@@ -16,7 +16,7 @@ Dự án được xây dựng như một hồ sơ cá nhân hiện đại, mang 
 - HTML5 + CSS3 thuần, không sử dụng framework
 - Thiết kế responsive: hiển thị tốt trên cả máy tính và điện thoại
 - JavaScript đơn giản điều khiển giao diện tab
-- Hình ảnh được sử dụng: `lien-mau-hau-1.jpg`, `lien-mau-hau-2.jpg`
+- Hình ảnh được sử dụng: `lien-mau-hau-1.jpg`, `lien-mau-hau-2.jpg`, `lien-mau-hau-3.jpg`
 - Âm thanh được sử dụng: `lien-mau-hau.mp3`
 
 ## 🧠 Mục tiêu dự án
@@ -41,6 +41,7 @@ lien-mau-hau/
 ├── style.css                     # Giao diện phong cách Liên Mẫu Hậu
 ├── lien-mau-hau-1.jpg            # Ảnh đại diện của Liên Mẫu Hậu
 ├── lien-mau-hau-2.jpg            # Ảnh đại diện của Liên Mẫu Hậu
+├── lien-mau-hau-3.jpg            # Ảnh đại diện của Liên Mẫu Hậu
 ├── lien-mau-hau.mp3              # Đoạn ghi âm của Liên Mẫu Hậu
 └── README.md                     # Tập tin giới thiệu dự án
 ~~~
