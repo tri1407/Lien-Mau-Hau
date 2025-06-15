@@ -1,6 +1,6 @@
 # 👑 Liên Mẫu Hậu – Nữ nhân tài sắc vẹn toàn trong lòng gia đình
 
-![Liên Mẫu Hậu](lien-mau-hau-2.png)
+![Liên Mẫu Hậu](lien-mau-hau-2.jpg)
 
 ## 📌 Giới thiệu
 
@@ -16,7 +16,7 @@ Dự án được xây dựng như một hồ sơ cá nhân hiện đại, mang 
 - HTML5 + CSS3 thuần, không sử dụng framework
 - Thiết kế responsive: hiển thị tốt trên cả máy tính và điện thoại
 - JavaScript đơn giản điều khiển giao diện tab
-- Hình ảnh được sử dụng: `lien-mau-hau-1.png`, `lien-mau-hau-2.png`
+- Hình ảnh được sử dụng: `lien-mau-hau-1.jpg`, `lien-mau-hau-2.jpg`
 - Âm thanh được sử dụng: `lien-mau-hau.mp3`
 
 ## 🧠 Mục tiêu dự án
@@ -39,12 +39,12 @@ Trang web chia thành 3 phần chính:
 lien-mau-hau/
 ├── index.html                    # Trang chính
 ├── style.css                     # Giao diện phong cách Liên Mẫu Hậu
-├── lien-mau-hau-1.png            # Ảnh đại diện của Liên Mẫu Hậu
-├── lien-mau-hau-2.png            # Ảnh đại diện của Liên Mẫu Hậu
+├── lien-mau-hau-1.jpg            # Ảnh đại diện của Liên Mẫu Hậu
+├── lien-mau-hau-2.jpg            # Ảnh đại diện của Liên Mẫu Hậu
 ├── lien-mau-hau.mp3              # Đoạn ghi âm của Liên Mẫu Hậu
 └── README.md                     # Tập tin giới thiệu dự án
 ~~~
 
 ## ▶️ Vào trang web
 
-Bạn có thể truy cập trang web trực tiếp mà không cần cài đặt gì 👉 [Vào trang web tại đây](https://tri1407.github.io/Lien-Mau-Hau)"# Lien-Mau-Hau" 
+Bạn có thể truy cập trang web trực tiếp mà không cần cài đặt gì 👉 [Vào trang web tại đây](https://tri1407.github.io/Lien-Mau-Hau)
